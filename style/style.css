@@ -1,0 +1,212 @@
+
+
+
+.navbar-brand img {
+    height: 80px;
+    width: 100px;
+
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    color: black;
+   
+  }
+
+  .nav-link{
+    margin-right:30px ;
+  }
+
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color:white; /* Change the color to whatever you prefer */
+    background-color: black;
+  }
+
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; /* Ensure a background color for navbar */
+  }
+  
+  #about-us {
+    margin-top: 90px;
+    background-image: url("/Image/analysis-hospital-doctor-medical.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 170px 0;
+    position: relative;
+    min-height: 300px;
+    z-index: 1;
+  }
+ 
+  #about-us h2 {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: white; /* Adjust text color for better readability */
+  }
+  
+  #about-us p {
+    font-size: 18px;
+    color: white; /* Adjust text color for better readability */
+  }
+
+
+  
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .navbar  {
+        height: 190px;
+        width: auto; /* Adjust as needed */
+    }
+
+    .nav-link {
+        margin-right: 15px; /* Adjust as needed */
+    }
+
+    #about-us {
+       
+        padding: 50px 0; /* Adjust padding as needed */
+        background-size: contain; /* Adjust background size as needed */
+    }
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 0rem 26rem; /* This centers the form-container horizontally */
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: black;
+   margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+#Mention{
+    margin: 20px;
+    padding:3% 11%;
+    background-color: #FFFF;
+    z-index: 100;
+    position: relative;
+    text-align: center;
+}
+
+#Mention h3{
+    margin: 20px;
+}
+#Mention span{
+ color: #0056b3;
+
+}
+
+.services .icon-box {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .section-title h2{
+    text-align: center;
+  }
+  
+  .services .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+    color: #3fbbc0;
+    overflow: hidden;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .services .icon i {
+    font-size: 36px;
+    line-height: 0;
+  }
+  
+  .services .icon-box:hover .icon {
+    box-shadow: 0px 0 25px rgba(63, 187, 192, 0.3);
+  }
+  
+  .services .title {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  
+  .services .title a {
+    color: #444444;
+    transition: 0.3s;
+  }
+  
+  .services .title a:hover {
+    color: #3fbbc0;
+  }
+  
+  .services .title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #3fbbc0;
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+  
+  .services .description {
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+
+  #footer{
+    text-align: center;
+ 
+}
+
